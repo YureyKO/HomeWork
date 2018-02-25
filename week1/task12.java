@@ -11,7 +11,7 @@ public class task12 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введіть число ФІБОНАЧІ - ");
+        System.out.print("Enter the FIBOUS number - ");
         int numF = scanner.nextInt();
 
         int num1 = 0;

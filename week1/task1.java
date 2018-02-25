@@ -16,10 +16,10 @@ public class task1 {
         if (time > 9 && time < 18) {
             System.out.print("I am at work");
 
-        } else if ((0 <= time && time <= 9) || (time >= 18 && time <= 24)) {
+        } else if (0 <= time && time <= 9 || time >= 18 && time <= 24) {
             System.out.print("I rest");
 
-        } else if (time < 0 || time > 24) {
+        } else {
             System.out.print("INCORRECT time");
         }
     }

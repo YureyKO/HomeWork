@@ -8,7 +8,7 @@ public class task11 {
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введіть число  ФАКТОРІАЛА - ");
+        System.out.print("Enter the FACTORAL number - ");
         int numF = scanner.nextInt();
 
         int resF = 1;
